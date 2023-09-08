@@ -107,13 +107,29 @@
       }
     }
 
+    .pre-header-logo div {
+      text-align: left !important;
+    }
+
     .header-padding {
       padding: 50px 100px 30px !important;
     }
 
+    .pre-header-text div {
+      text-align: right !important;
+    }
+
     @media (max-width:480px) {
+      .pre-header-logo div {
+        text-align: center !important;
+        padding-bottom: 10px !important;
+      }
+
+      .pre-header-text div {
+        text-align: center !important;
+      }
+
       .header-padding {
-        border: 1px solid red;
         padding-left: 20px !important;
         padding-right: 20px !important;
       }
@@ -145,16 +161,8 @@
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                     <tbody>
                                       <tr>
-                                        <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
-                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
-                                            <tbody>
-                                              <tr>
-                                                <td style="width:80px;">
-                                                  <img alt="" height="auto" src="img/hyundai-logo.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="80" />
-                                                </td>
-                                              </tr>
-                                            </tbody>
-                                          </table>
+                                        <td align="left" class="pre-header-logo" style="font-size:0px;padding:0;word-break:break-word;">
+                                          <div style="font-family:Arial;font-size:13px;line-height:1;text-align:left;color:#000000;"><img src="img/hyundai-logo.png" alt="" style="width:80px"></div>
                                         </td>
                                       </tr>
                                     </tbody>
@@ -173,8 +181,8 @@
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                     <tbody>
                                       <tr>
-                                        <td align="right" style="font-size:0px;padding:0;word-break:break-word;">
-                                          <div style="font-family:Arial;font-size:13px;line-height:1;text-align:right;color:#000000;">Not displaying correctly, <a href="#">View in browser</a></div>
+                                        <td align="left" class="pre-header-text" style="font-size:0px;padding:0;word-break:break-word;">
+                                          <div style="font-family:Arial;font-size:13px;line-height:1;text-align:left;color:#000000;">Not displaying correctly, <a href="#">View in browser</a></div>
                                         </td>
                                       </tr>
                                     </tbody>
